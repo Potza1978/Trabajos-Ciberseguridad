@@ -1,2 +1,0 @@
-# Trabajos-Ciberseguridad
-Ejercicios 
