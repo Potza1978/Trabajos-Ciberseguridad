@@ -33,38 +33,6 @@ Se procesó una auditoría basada en la norma CIS Microsoft Windows 11 Enterpris
 * **Umbral de Bloqueo (ID 2606 / 2607)**: Vulnerable a fuerza bruta.
 * **Estado de Cuentas (ID 2609)**: Cuenta de Administrador local activa.
 
-## 📸 Evidencias de Laboratorio
-
-1. **Panel de Visualización del Incidente Crítico (Filtro PowerShell)**
-![Evidencia 1](1.png)
-
-2. **Desglose Forense del Log de Sysmon (Nivel 15)**
-![Evidencia 2](2.png)
-
-3. **Escaneo General del Módulo SCA (CIS Benchmark)**
-![Evidencia 3](3.png)
-
-4. **Inventario de Directivas de Cuentas Fallidas**
-![Evidencia 4](4.png)
-
-5. **Configuración de Políticas de Restricción**
-![Evidencia 5](5.png)
-
-6. **Detalle de Eventos de Evasión (ID 597/751)**
-![Evidencia 6](6.png)
-
-7. **Análisis del Payload detectado en AppData**
-![Evidencia 7](7.png)
-
-8. **Detalle de métricas de cumplimiento (SCA)**
-![Evidencia 8](8.png)
-
-9. **Visualización de Alertas de Nivel 9 (Evasión de Defensas)**
-![Evidencia 9](9.png)
-
-10. **Resumen de Seguridad Post-Laboratorio**
-![Evidencia 10](10.png)
-
 ## 📈 Conclusiones y Plan de Remediación
 El laboratorio demuestra que la monitorización reactiva es insuficiente sin un hardening robusto. Se prescribe:
 * **Políticas de Restricción de Software**: Configurar AppLocker para bloquear scripts en rutas de usuario (`\Temp\`).
