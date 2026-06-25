@@ -12,14 +12,14 @@ Este repositorio documenta mi laboratorio práctico de ciberseguridad centrado e
 * **Gestión de SIEM:** Centralización de logs y visibilidad integral.
 
 ## 📸 Evidencias del Laboratorio
-* **Fase de Hardening:** Auditoría inicial y detección de brechas (01.png - 05.png).
-* **Análisis de Incidentes:** Captura de eventos críticos y correlación Sysmon (06.png - 08.png).
-* **Resultados y Remediación:** Dashboard final, reporte de seguridad y plan de acción (09.png - 10.png).
+* **Fase de Hardening y Auditoría:** Configuración de firewall, reglas y escaneo SCA (1.png - 5.png).
+* **Análisis de Incidentes y Amenazas:** Detección en tiempo real, correlación y métricas de seguridad (6.png - 7.png).
+* **Mapeo Táctico y Reporte:** Clasificación MITRE ATT&CK y visualización de resultados finales (8.png - 9.png).
 
 ## 🛠️ Detalles Técnicos
 * **Canal de Detección:** Microsoft-Windows-Sysmon (Event ID 11).
 * **Framework:** MITRE ATT&CK (T1105 - Ingress Tool Transfer).
-* **Normativa:** CIS Microsoft Windows 11 Enterprise Benchmark v1.0.0.
+* **Normativa:** CIS Microsoft Windows 11 Enterprise Benchmark v3.0.0.
 
 ---
 *Enfocado en Blue Team Operations | Analista SOC en formación.*
